@@ -1064,9 +1064,15 @@ p{
 
 .avis{
     font-style: italic;
+    /* font-weight: ; */
 }
 
 .author{
     font-style: normal;
     font-weight: lighter;
+}
+
+.coordonnées{
+    font-size: 25px;
+    color: #a1490e;
 }
