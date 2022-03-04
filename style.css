@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /* color: #575757!important; */
 }
 
 .container {
@@ -688,6 +688,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    color: yellow;
 }
 
 .cta-hero {
@@ -720,10 +721,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
 }
 
 h4 {
@@ -771,21 +768,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #a1490e;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff;
 }
 
-.btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+.btn-atomic-tangerine{
+    color: white;
+    background: #a1490e;
 }
 
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+.btn-atomic-tangerine:hover{
+    background: rgba(59, 4, 4, 0.8);
 }
 
 .ltc-white {
@@ -1039,4 +1035,38 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/* Modifications SEO et accessibilité */
+
+.grand-title{
+    color: rgb(233, 227, 149);
+}
+
+p{
+    font-size: 15px;
+}
+
+.nav-item{
+    margin-right: 20px;
+}
+
+.presentation-title{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
+}
+
+.texte-agence{
+    font-size: 24px;
+}
+
+.avis{
+    font-style: italic;
+}
+
+.author{
+    font-style: normal;
+    font-weight: lighter;
 }
