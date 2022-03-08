@@ -332,10 +332,12 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:hover{
     background: transparent;
 }
+/* .nav > li a:focus { 
+    background: transparent;
+} */
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -822,11 +824,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere-mini.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation-mini.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1088,3 +1090,5 @@ p{
     font-size: 25px;
     color: #a1490e;
 }
+
+
